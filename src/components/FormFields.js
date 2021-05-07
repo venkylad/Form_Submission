@@ -165,7 +165,7 @@ const FormFields = ({ keys }) => {
             {errors?.password?.type === "maxLength" &&
               "Password cannot exceed 25 characters"}
             {errors?.password?.type === "pattern" &&
-              "Need letters, digits & special characters"}
+              "Need atleaest 5letters, 2digits & 2special characters"}
             {errors?.password?.type === "required" && "This field is required "}
           </Form.Text>
         </Form.Group>
